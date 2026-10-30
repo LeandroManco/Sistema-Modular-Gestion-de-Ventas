@@ -1,4 +1,4 @@
-function registrarVenta(historial, articulo, cantidad, precioUnitario) {
+export function registrarVenta(historial, articulo, cantidad, precioUnitario) {
     const nuevaVenta = {articulo, cantidad, precioUnitario};
 
     historial.push(nuevaVenta);
@@ -6,7 +6,7 @@ function registrarVenta(historial, articulo, cantidad, precioUnitario) {
     return historial;
 }
 
-function calcularTotal(historial) {
+export function calcularTotal(historial) {
     let total = 0;
 
     for (const venta of historial) {
