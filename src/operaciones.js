@@ -1,12 +1,12 @@
-export function registrarVenta(historial, articulo, cantidad, precioUnitario) {
-    const nuevaVenta = {articulo, cantidad, precioUnitario};
+export function registrarVentasNegocio(historial, articulo, cantidad, precioUnitario) {
+    const nuevasVentas = {articulo, cantidad, precioUnitario};
 
-    historial.push(nuevaVenta);
+    historial.push(nuevasVentas);
 
     return historial;
 }
 
-export function calcularTotal(historial) {
+export function calcularTotalDia(historial) {
     let total = 0;
 
     for (const venta of historial) {
