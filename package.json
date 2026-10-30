@@ -2,9 +2,9 @@
   "name": "sistema-modular-de-gestion-de-ventas",
   "version": "1.0.0",
   "description": "Sistema modular de gestión de ventas",
-  "main": "main.js",
+  "main": "src/ejecucion.js",
    "scripts": {
-     "start": "node main.js"
+     "start": "node src/ejecucion.js"
    },
   "repository": {
     "type": "git",
