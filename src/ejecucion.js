@@ -1,3 +1,5 @@
+// Módulo Principal (Ejecución): punto de entrada. Simula al cajero e imprime el reporte de cierre.
+
 import { ventasInicialesNegocio } from "./datos.js";
 import { registrarVentasNegocio, calcularTotalDia } from "./operaciones.js";
 

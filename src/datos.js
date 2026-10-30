@@ -1,3 +1,5 @@
+// Módulo de Datos: simula la base de datos inicial de ventas de la mañana.
+
 export const ventasInicialesNegocio = [
     { articulo: "Teclado inalambrico", cantidad: 1, precioUnitario: 100000 },
     { articulo: "Silla tipo gamer", cantidad: 1, precioUnitario: 500000 },

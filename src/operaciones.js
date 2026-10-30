@@ -1,3 +1,5 @@
+// Módulo de Operaciones: lógica de negocio para registrar ventas y calcular el total.
+
 export function registrarVentasNegocio(historial, articulo, cantidad, precioUnitario) {
     const nuevasVentas = {articulo, cantidad, precioUnitario};
 
